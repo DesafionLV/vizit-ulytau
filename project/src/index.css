@@ -1,0 +1,37 @@
+/* Базовые сбросы стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Стили для всего тела сайта */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8fafc;
+}
+
+/* Контейнер для центрирования контента */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* Адаптивные отступы для больших экранов */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
+    padding: 0 60px;
+  }
+}
